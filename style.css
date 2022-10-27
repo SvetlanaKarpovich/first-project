@@ -1,0 +1,5 @@
+.header {
+    display: flex;
+    border: 10px solid yellow;
+    background-color: pink;
+}
