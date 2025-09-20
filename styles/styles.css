@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  
   background-color: aqua;
   margin: 0 50px;
   padding: 90px 50px;
@@ -45,22 +46,23 @@
 }
 
 .header__logo {
-  display: block;
-  width: min-content;
+  display: inline-block;
+  min-height: 100px;
 }
 
 .header__logo-image {
-  max-width: 100%;
+  display: block;
+  width: auto;
   height: auto;
-  object-fit: cover;
+  max-width: 100%;
 }
 
-.address {
+.adress {
   display: flex;
   flex-direction: column;
 }
 
-.header__address {  
+.header__adress {  
   display: flex;
   flex-direction: row-reverse;
 }
@@ -74,9 +76,9 @@
   overflow-wrap: break-word;
 }
 
-/*.main {
+.main {
   /*не назначать ни чего кроме цвета и границ*/
- /* background-color: violet;
+  background-color: violet;
 }
 
 .cover {
@@ -89,7 +91,7 @@
   padding: 165px 50px 50px;
 }
 
-.lots {
+/*.lots {
   background-color: aquamarine;
   margin: 180px 24px 0;
   padding: 0;
