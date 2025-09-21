@@ -63,8 +63,7 @@
 }
 
 .header__adress {  
-  display: flex;
-  flex-direction: row-reverse;
+  justify-self: end;
 }
 
 .adress__list {
@@ -172,13 +171,13 @@
   padding: 10px 30px;
 }
 
-/*.lots {
+.lots {
   background-color: aquamarine;
   margin: 180px 24px 0;
   padding: 0;
 }
 
-.about {
+/*.about {
   background-color: yellowgreen;
   margin: 120px 24px 180px;
   padding: 0;
