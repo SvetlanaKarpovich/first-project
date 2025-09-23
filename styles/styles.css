@@ -44,7 +44,7 @@
 }
 
 .header__link_active {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -84,6 +84,7 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
   width: auto;
@@ -106,6 +107,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 20px;
   padding: 165px 50px 50px;
   color: #FFFFFF;
   z-index: 2;
@@ -131,7 +133,7 @@
 }
 
 .letter-spacing-extended {
-
+  line-height: 115px;
 }
 
 .no-letter-spacing {
@@ -142,7 +144,8 @@
   display: inline-flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 100px 0 0;
+  align-self: stretch;
+  margin: 0;
   padding: 0 50px;
   color: #FFFFFF;
   font-family: Raleway, sans-serif;
@@ -175,8 +178,8 @@
   margin: 180px 24px 0;
   padding: 0;
   overflow-wrap: anywhere;
-  position: relative;
-  z-index: -2;
+  /* position: relative; */
+  /* z-index: 0; */
 }
 
 .lots__heading {
@@ -197,26 +200,28 @@
 
 .lots__card-list-item {
   display: flex;
-  /*width: 100%;
-  min-height: 596px;*/
+  width: 100%;
+  min-height: 596px; 
   list-style: none;
-  padding: 48px 40px;
+  /* padding: 48px 40px; */
   position: relative;
 }
 
 .card-link {
   height: 100%;
   padding: 0;
+  color:#FFFFFF;
   text-decoration: underline;
-
   text-underline-offset: 3px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  margin: 48px 40px;
   gap: 30px;
-  height: 100%;
+  z-index: 2;
+  /* height: 100%; */
 }
 
 .card_type_film {
@@ -248,8 +253,6 @@
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
-  text-decoration: solid;
-  z-index: 2;
 }
 
 .card__text {
@@ -264,7 +267,7 @@
   color: #000000;
   font-weight: normal;
   text-transform: lowercase;
-  text-decoration: solid;
+  text-decoration: underline;
   text-underline-offset: 3px;
 }
 
@@ -306,14 +309,15 @@
   flex-direction: column;
   justify-content: end;
   align-items: start;
+  gap: 100px;
 }
 
 .about__title {
   color: #000000;
+  line-height: 100%;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 100px;
 }
 
 .about__text {
@@ -340,10 +344,17 @@
 
 .footer__menu-list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-underline-offset: 3px;
+  text-transform: lowercase;
 }
 
 .footer__menu-list-item {
-
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
 }
 
 .footer__menu-link {
@@ -351,7 +362,7 @@
 }
 
 .footer__menu-link_active {
-
+  text-decoration: none;
 }
 
 .footer__social-list {
