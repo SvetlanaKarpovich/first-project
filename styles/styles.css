@@ -298,11 +298,11 @@
 }
 
 .about__logo-image {
-  inset: 64px 46px auto auto;
+  display: block;
+  margin: auto;
+  inset: 0;
   width: 63%;
   position: absolute;
-  z-index: 2;
-
 }
 
 .about__column_descriptive-part {
@@ -367,6 +367,11 @@
 }
 
 .footer__social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 48px;
   list-style: none;
 }
 
