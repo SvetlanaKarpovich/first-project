@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  gap: 38px;
+  gap: 50px;
   min-height: 293px;
   margin: 0;
   padding: 90px 50px;
@@ -108,7 +108,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
-  padding: 165px 50px 50px;
+  padding: 165px 50px 0px;
   color: #FFFFFF;
   z-index: 2;
 }
@@ -164,7 +164,6 @@
   color: #FFFFFF;
   font-size: 22px;
   text-align: center;
-  line-height: 100%;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -275,6 +274,7 @@
   align-items: stretch;
   margin: 120px 24px 180px;
   padding: 35px 0 0;
+  gap: 20px;
   min-height: 595px;
 }
 
@@ -286,6 +286,7 @@
 }
 
 .about__logo {
+  align-self: center;
   background-color: #000000;
   border-radius: 50%;
   min-height: 240px;
@@ -322,7 +323,7 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 30px;
+  gap: 25px;
   color: #000000;
   line-height: 24px;
   font-size: 20px;
@@ -332,7 +333,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 150px;
+  gap: 140px;
   min-height: 180px;
   margin: 0;
   padding: 0 50px 80px;
@@ -359,7 +360,6 @@
 .footer__menu-list-item {
   font-size: 18px;
   font-weight: normal;
-  line-height: 100%;
   color: #000000;
 }
 
