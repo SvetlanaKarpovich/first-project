@@ -11,6 +11,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   gap: 38px;
+  min-height: 293px;
   margin: 0;
   padding: 90px 50px;
 }
@@ -274,7 +275,7 @@
   align-items: stretch;
   margin: 120px 24px 180px;
   padding: 35px 0 0;
-  min-height: 596px;
+  min-height: 595px;
 }
 
 .about__column {
@@ -332,6 +333,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 150px;
+  min-height: 180px;
   margin: 0;
   padding: 0 50px 80px;
 }
@@ -362,7 +364,7 @@
 }
 
 .footer__menu-link {
-
+  
 }
 
 .footer__menu-link_active {
