@@ -53,7 +53,7 @@
 .header__logo-image {
   width: 105%;
 }
-.adress {
+.address {
   display: flex;
   flex-direction: column;
   line-height: 25px;
@@ -61,17 +61,17 @@
   font-weight: normal;
 }
 
-.header__adress {  
+.header__address {  
   max-width: 240px;
   justify-self: end;
 }
 
-.adress__list {
+.address__list {
   list-style: none;
   text-underline-offset: 3px;
 }
 
-.adress__list-item {
+.address__list-item {
   overflow-wrap: break-word;
 }
 
